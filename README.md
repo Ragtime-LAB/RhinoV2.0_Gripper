@@ -4,7 +4,7 @@
 
 ![RhinoV2.0 实物图](img/RhinoV2.0_Real.jpg)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Bilibili](https://img.shields.io/badge/Bilibili-芝士榴莲肥牛-pink?logo=bilibili&logoColor=white)](https://space.bilibili.com/502610055)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/GPL-3.0) [![Bilibili](https://img.shields.io/badge/Bilibili-芝士榴莲肥牛-pink?logo=bilibili&logoColor=white)](https://space.bilibili.com/502610055)
 
 ---
 
@@ -56,7 +56,7 @@ RhinoV2.0_Gripper/
 │   └── RhinoV2.0_Real.jpg          # 实物图
 │
 ├── README.md                  # 本文件
-└── LICENSE                    # MIT 开源许可证
+└── LICENSE                    # GPL-3.0 开源许可证
 ```
 
 ### ⚙️ 硬件配置
@@ -106,7 +106,14 @@ RhinoV2.0_Gripper/
 
 ### ⚖️ 许可证
 
-本项目采用 [MIT License](LICENSE) 开源协议，您可以自由使用、修改和分发。
+本项目采用 [GPL-3.0 License](LICENSE) 开源协议，主要特点：
+
+- ✅ **允许商业使用**：您可以自由地将本项目用于商业目的
+- ✅ **要求开源**：如果您基于本项目修改或衍生出新作品，必须同样以 GPL-3.0 协议开源
+- ✅ **专利保护**：GPL-3.0 提供明确的专利授权保护，防止专利诉讼
+- ✅ **自由使用**：您可以自由使用、修改和分发本项目
+
+> 💡 **简单来说**：您可以商用、可以修改，但修改后的代码也必须开源！
 
 ### 🙏 致谢
 
@@ -144,7 +151,7 @@ RhinoV2.0_Gripper/
 
 ![RhinoV2.0 实物图](img/RhinoV2.0_Real.jpg)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Bilibili](https://img.shields.io/badge/Bilibili-芝士榴莲肥牛-pink?logo=bilibili&logoColor=white)](https://space.bilibili.com/502610055)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/GPL-3.0) [![Bilibili](https://img.shields.io/badge/Bilibili-芝士榴莲肥牛-pink?logo=bilibili&logoColor=white)](https://space.bilibili.com/502610055)
 
 ---
 
@@ -164,7 +171,7 @@ RhinoV2.0 is an open-source adaptive two-finger gripper, inspired by the commerc
 
 ### ✨ Key Features
 
-- 💰 **Ultra-low Cost**: 3D printed version complete set < ¥1000
+- 💰 **Ultra-low Cost**: 3D printed version complete set < $200
 - Adaptive gripping compatible with objects of various shapes and sizes
 - Underactuated mechanism design with compact structure
 - Joint motor (DAMIAO DM4310) driven
@@ -194,7 +201,7 @@ RhinoV2.0_Gripper/
 │   └── RhinoV2.0_Real.jpg          # Photo of real product
 │
 ├── README.md                  # This file
-└── LICENSE                    # MIT open source license
+└── LICENSE                    # GPL-3.0 open source license
 ```
 
 ### ⚙️ Hardware Specifications
@@ -244,7 +251,14 @@ If you are passionate about this project and want to join our team to develop be
 
 ### ⚖️ License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GPL-3.0 License](LICENSE). Key features:
+
+- ✅ **Commercial Use Allowed**: You are free to use this project for commercial purposes
+- ✅ **Copyleft Required**: If you modify or create derivative works based on this project, you must release them under GPL-3.0 as well
+- ✅ **Patent Protection**: GPL-3.0 provides explicit patent license protection to prevent patent litigation
+- ✅ **Freedom to Use**: You are free to use, modify, and distribute this project
+
+> 💡 **In Short**: Commercial use is allowed, modifications are allowed, but modified code must also be open source!
 
 ### 🙏 Acknowledgments
 
