@@ -1,14 +1,13 @@
 # RhinoV2.0 自适应夹爪 / Adaptive Gripper
 
-[![en](https://img.shields.io/badge/lang-en-blue.svg)](#english)[![中文](https://img.shields.io/badge/lang-中文-red.svg)](#中文)
+<a id="中文"></a>
+[![en](https://img.shields.io/badge/lang-English-blue.svg)](#english)[![中文](https://img.shields.io/badge/lang-中文-red.svg)](#中文)
 
 ![RhinoV2.0 实物图](img/RhinoV2.0_Real.jpg)
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/GPL-3.0) [![Bilibili](https://img.shields.io/badge/Bilibili-芝士榴莲肥牛-pink?logo=bilibili&logoColor=white)](https://space.bilibili.com/502610055)
 
 ---
-
-<a name="中文"></a>
 
 ### 📖 项目简介
 
@@ -123,14 +122,14 @@ RhinoV2.0_Gripper/
 **特别鸣谢 / Special Thanks**
 
 - **小一** - 感谢您的赞助支持 | GitHub: [KelvinLauMiau](https://github.com/KelvinLauMiau)
-贡献：为结构提出大部分思路以及外观优化
+贡献：为结构提出大部分思路以及外观优化以及所有研发费用的支出
 - **乐乐汉堡** - 感谢您的激励和指导 | Bilibili: [乐乐汉堡](https://space.bilibili.com/435723766?spm_id_from=333.337.0.0)
 贡献：作为作者的学习的榜样，并提出关键指导
 
 ### 📧 联系方式
 
 - 👤 作者：wEch1ng（芝士榴莲肥牛）
-- 🔗 前代项目：[RhinoV1.0_Gripper](https://github.com/wEch1ng/Rhino_Gripper) （本项目的升级改进版本）
+- 🔗 前代项目：[RhinoV1.0_Gripper](https://github.com/wEch1ng/Rhino_Gripper)
 - 📧 邮箱：3575868884@qq.com
 - 💬 微信：xwccc12028
 - 🤝 如有问题或合作意向，欢迎联系！
@@ -141,13 +140,13 @@ RhinoV2.0_Gripper/
 
 ---
 
-**[回到顶部](#rhinov20-自适应夹爪) | [English](#english)**
+**[回到顶部](#rhinov20-自适应夹爪)**
 
 ---
 
-<a name="english"></a>
+<a id="english"></a>
 
-[![en](https://img.shields.io/badge/lang-en-blue.svg)](#english)[![中文](https://img.shields.io/badge/lang-中文-red.svg)](#中文)
+[![中文](https://img.shields.io/badge/lang-中文-red.svg)](#中文)[![en](https://img.shields.io/badge/lang-English-blue.svg)](#english)
 
 ![RhinoV2.0 实物图](img/RhinoV2.0_Real.jpg)
 
@@ -268,14 +267,14 @@ This project is licensed under the [GPL-3.0 License](LICENSE). Key features:
 **Special Thanks**
 
 - **小一 (Xiao Yi)** - Thank you for your sponsorship | GitHub: [KelvinLauMiau](https://github.com/KelvinLauMiau)
-  - Contribution: Proposed most of the structural design concepts and appearance optimization
+  - Contribution: Proposed most of the structural design concepts, appearance optimization, and covered all R&D expenses
 - **乐乐汉堡 (Lele Hamburger)** - Thank you for your motivation and guidance | Bilibili: [乐乐汉堡](https://space.bilibili.com/435723766?spm_id_from=333.337.0.0)
   - Contribution: Served as the author's role model and provided key guidance
 
 ### 📧 Contact
 
 - 👤 Author: wEch1ng（芝士榴莲肥牛）
-- 🔗 Previous Project: [RhinoV1.0_Gripper](https://github.com/wEch1ng/Rhino_Gripper) (This is an upgraded version)
+- 🔗 Previous Project: [RhinoV1.0_Gripper](https://github.com/wEch1ng/Rhino_Gripper) 
 - 📧 Email: 3575868884@qq.com
 - 💬 WeChat: xwccc12028
 - 🤝 Feel free to contact for any questions or collaboration!
@@ -286,4 +285,4 @@ This project is licensed under the [GPL-3.0 License](LICENSE). Key features:
 
 ---
 
-**[Back to Top](#rhinov20-自适应夹爪) | [中文](#中文)**
+**[Back to Top](#rhinov20-自适应夹爪)**
