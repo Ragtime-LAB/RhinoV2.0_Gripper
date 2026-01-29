@@ -51,6 +51,14 @@ RhinoV2.0_Gripper/
 │   ├── 铨洲三轴CNC/                 # CNC 加工文件
 │   └── 丝杆及螺母/                  # 丝杆组件相关
 │
+├── 3_RhinoV2.0_Gripper_control/   # 夹爪控制系统代码
+│   ├── gripper_ui_integrated.py    # 整合控制UI（推荐）
+│   ├── motor_control_pyqt.py       # 手动控制程序
+│   ├── damiao.py                   # 达妙电机控制库
+│   ├── test_pressure.py            # 压力传感器测试
+│   ├── requirements.txt            # Python依赖
+│   └── README.md                   # 控制系统详细文档
+│
 ├── img/                            # 项目图片
 │   └── RhinoV2.0_Real.jpg          # 实物图
 │
@@ -195,6 +203,14 @@ RhinoV2.0_Gripper/
 │   ├── 嘉立创钣金304或铨洲/         # Sheet metal fabrication or CNC files
 │   ├── 铨洲三轴CNC/                 # CNC machining files
 │   └── 丝杆及螺母/                  # Lead screw assembly related
+│
+├── 3_RhinoV2.0_Gripper_control/   # Gripper control system code
+│   ├── gripper_ui_integrated.py    # Integrated control UI (recommended)
+│   ├── motor_control_pyqt.py       # Manual control program
+│   ├── damiao.py                   # DAMIAO motor control library
+│   ├── test_pressure.py            # Pressure sensor test
+│   ├── requirements.txt            # Python dependencies
+│   └── README.md                   # Control system documentation
 │
 ├── img/                       # Project images
 │   └── RhinoV2.0_Real.jpg          # Photo of real product
