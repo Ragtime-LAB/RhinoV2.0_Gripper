@@ -27,10 +27,15 @@ from matplotlib.figure import Figure
 import matplotlib
 matplotlib.use('Qt5Agg')
 
+# 配置matplotlib - 使用英文避免字体问题
+import matplotlib.pyplot as plt
+plt.rcParams['font.family'] = 'DejaVu Sans'
+plt.rcParams['axes.unicode_minus'] = False
+
 from damiao import *
 
 # ==================== 串口和传感器配置 ====================
-SERIAL_PORT = '/dev/ttyUSB1'
+SERIAL_PORT = '/dev/ttyUSB0'
 BAUDRATE = 460800
 HEADER = b'\xFF\x66'
 FRAME_SIZE = 78
@@ -383,7 +388,7 @@ class GripperUI(QMainWindow):
     
     def init_ui(self):
         """初始化UI"""
-        self.setWindowTitle("夹爪控制系统 - 整合版")
+        self.setWindowTitle("RhinoV2.0夹爪控制系统")
         self.setGeometry(100, 100, 1400, 900)
         
         # 设置样式
@@ -428,7 +433,7 @@ class GripperUI(QMainWindow):
         main_layout.setContentsMargins(15, 15, 15, 15)
         
         # 标题
-        title = QLabel("夹爪控制系统")
+        title = QLabel("RhinoV2.0+阵列压力")
         title.setFont(QFont("Arial", 18, QFont.Bold))
         title.setAlignment(Qt.AlignCenter)
         main_layout.addWidget(title)
@@ -624,18 +629,20 @@ class GripperUI(QMainWindow):
         self.viz_figure = Figure(figsize=(7, 6))
         self.viz_canvas = FigureCanvas(self.viz_figure)
         self.viz_ax = self.viz_figure.add_subplot(111)
-        
+
         # 初始化热力图
-        self.viz_im = self.viz_ax.imshow(self.pressure_matrix, cmap='hot', 
+        self.viz_im = self.viz_ax.imshow(self.pressure_matrix, cmap='hot',
                                          interpolation='nearest', vmin=0, vmax=100)
         self.viz_cbar = self.viz_figure.colorbar(self.viz_im, ax=self.viz_ax)
-        self.viz_cbar.set_label('压强 (kPa)', rotation=270, labelpad=15)
-        
+
+        # 设置标签 - 使用英文避免乱码
+        self.viz_cbar.set_label('Pressure (kPa)', rotation=270, labelpad=15)
+        self.viz_ax.set_xlabel('X Coordinate')
+        self.viz_ax.set_ylabel('Y Coordinate')
+        self.viz_ax.set_title('6x6 Pressure Sensor Array')
+
         self.viz_ax.set_xticks(np.arange(6))
         self.viz_ax.set_yticks(np.arange(6))
-        self.viz_ax.set_xlabel('X 坐标')
-        self.viz_ax.set_ylabel('Y 坐标')
-        self.viz_ax.set_title('6x6 压力传感器分布图')
         
         # 添加文本标签
         self.text_matrix = [[None for _ in range(6)] for _ in range(6)]

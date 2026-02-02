@@ -287,8 +287,7 @@ RhinoV2.0_Gripper_control/
 │   └── test_pressure.py                         # 压力传感器测试程序（含可视化）
 │
 ├── 单功能程序
-│   ├── motor_control_pyqt.py                    # 电机手动控制UI
-│   └── gripper_control_with_visualization.py    # 夹持力PID控制+可视化（无UI）
+│   └── motor_control_pyqt.py                    # 电机手动控制UI
 │
 ├── 整合程序（推荐使用）
 │   └── gripper_ui_integrated.py                 # 整合UI（推荐）★
@@ -346,14 +345,6 @@ RhinoV2.0_Gripper_control/
   - 力矩值设置
   - 使能/失能管理
 - **使用场景**：手动操作夹爪
-
-#### `gripper_control_with_visualization.py`
-- **作用**：PID控制+可视化（命令行+matplotlib窗口）
-- **功能**：
-  - PID闭环控制
-  - 传感器可视化
-  - 按'q'键退出
-- **使用场景**：调试PID参数
 
 ### 整合程序（推荐）
 
